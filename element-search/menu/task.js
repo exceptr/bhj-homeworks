@@ -20,7 +20,7 @@
 
 function closeMenu() {
     const menuSubs = Array.from(document.querySelectorAll('ul.menu_sub'));
-    for (let menuSuElement of menuSubs) {
-        menuSuElement.classList.remove('menu_active');
+    for (let menuSubElement of menuSubs) {
+        menuSubElement.classList.remove('menu_active');
     }
 }
