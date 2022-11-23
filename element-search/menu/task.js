@@ -9,12 +9,12 @@
                         menuLink.closest('.menu__item').querySelector('.menu_sub').classList.toggle('menu_active');
                         return false
                     }
-        else if (menuLink.closest('.menu__item').querySelector('.menu_sub')) {
-                closeMenu();
-                menuLink.closest('.menu__item').querySelector('.menu_sub').classList.toggle('menu_active');
-                return false;
+            else if (menuLink.closest('.menu__item').querySelector('.menu_sub')) {
+                    closeMenu();
+                    menuLink.closest('.menu__item').querySelector('.menu_sub').classList.toggle('menu_active');
+                    return false;
+                }
             }
-        }
     }
 })()
 
