@@ -20,7 +20,7 @@ for (let dropdown of dropdowns) {
 function clickLinks(event) {
     const dropValue = this.closest('.dropdown').querySelector('.dropdown__value');
     dropValue.textContent = this.textContent;
-    closeMenu()
+    closeMenu();
     event.preventDefault();
 }
 
